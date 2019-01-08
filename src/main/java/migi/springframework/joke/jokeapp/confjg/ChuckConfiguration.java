@@ -1,11 +1,11 @@
-package migi.springframework.joke.jokeapp.components;
+package migi.springframework.joke.jokeapp.confjg;
 
 import guru.springframework.norris.chuck.ChuckNorrisQuotes;
 import org.springframework.context.annotation.Bean;
-import org.springframework.stereotype.Component;
+import org.springframework.context.annotation.Configuration;
 
-@Component
-public class ChuckNorrisBeans {
+@Configuration
+public class ChuckConfiguration {
 
     @Bean
     public ChuckNorrisQuotes chuckNorrisQuotes(){
